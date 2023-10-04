@@ -1,7 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,800;1,400;1,800&display=swap'); */
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 400;
 }
 
 :root {
@@ -11,8 +12,31 @@ body {
 
 @font-face {
     font-family: Outfit;
+    src: url(/fonts/Outfit-Light.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Outfit;
     src: url(/fonts/Outfit-Regular.ttf);
-    font-weight: 400
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/fonts/Outfit-Bold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/fonts/Outfit-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/fonts/Outfit-VariableFont_wght);
 }
 
 .category__filter.px-3.py-2.flex.flex-row.items-center.justify-center.text-white.bg-accent.rounded-full {
