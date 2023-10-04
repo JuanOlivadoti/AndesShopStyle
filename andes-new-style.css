@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,800;1,400;1,800&display=swap'); */
+
+body {
+    /* font-family: 'Source Code Pro', monospace !important; */
+}
+
+.category__filter.px-3.py-2.flex.flex-row.items-center.justify-center.text-white.bg-accent.rounded-full {
+    color: red !important;
+}
+
+#appshell .category__filter>span[data-v-0dc0959e] {
+    font-family: 'Brandon Text';
+    font-size: 23px;
+    text-transform: lowercase;
+}
+
+#appshell .bg-cover.bg-center.w-full.flex.items-center.px-4{
+    height: 23vw !important;
+}
+
+#appshell .bar-height.flex.justify-between.z-30 {
+    padding: 10px 0 0 0;
+}
+#appshell .bar-height {
+    height: 93px;
+}
+
+#appshell .bar-height.flex.justify-between.z-30 .py-2.pl-6.cursor-pointer{
+    padding: 0 !important;
+}
+
+#appshell .logo {
+    width: 100vw;
+    background-size: contain;
+    background-position: 50%;
+}
