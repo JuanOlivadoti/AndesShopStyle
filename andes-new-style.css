@@ -4,8 +4,13 @@ body {
     /* font-family: 'Source Code Pro', monospace !important; */
 }
 
+:root {
+    --main-color: #15243e;
+    --secondary-color: #37abc8;
+}
+
 .category__filter.px-3.py-2.flex.flex-row.items-center.justify-center.text-white.bg-accent.rounded-full {
-    color: red !important;
+    color: var(--secondary-color) !important;
 }
 
 #appshell .category__filter>span[data-v-0dc0959e] {
