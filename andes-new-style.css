@@ -55,6 +55,10 @@ body {
     text-transform: lowercase;
 }
 
+#appshell .category__filter.px-3.py-2.flex.flex-row.items-center.justify-center.text-white.bg-accent.rounded-full .font-light {
+    font-weight: 500 !important;
+}
+
 #appshell .bg-cover.bg-center.w-full.flex.items-center.px-4 {
     height: 23vw !important;
 }
@@ -77,6 +81,6 @@ body {
     background-position: 50%;
 }
 
-#appshell section .w-full .bg-white.border.border-gray-200.rounded-small.overflow-hidden.flex.flex-col.mx-3.px-3 {
-
+#appshell .bg-secondary-dark {
+    background-color: #15243e !important;
 }
